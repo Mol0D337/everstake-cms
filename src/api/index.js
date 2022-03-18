@@ -5,8 +5,8 @@ import { SET_USER_ID_TOKEN } from '@/store/mutation-types';
 import store from '../store';
 
 const APIService = axios.create({
-  baseURL: process.env.VUE_APP_API_URL,
-  timeout: process.env.VUE_APP_REQUEST_TIMEOUT,
+  baseURL: 'https://api-dev.everstake.one',
+  timeout: 30000,
   withCredentials: true,
   headers: {
     'Content-Type': 'application/json',

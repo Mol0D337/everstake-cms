@@ -1,10 +1,9 @@
 export default {
-  apiKey: process.env.VUE_APP_FIREBASE_API_KEY,
-  authDomain: process.env.VUE_APP_FIREBASE_AUTH_DOMAIN,
-  databaseURL: process.env.VUE_APP_FIREBASE_DATABASE_URL,
-  projectId: process.env.VUE_APP_FIREBASE_PROJECT_ID,
-  storageBucket: process.env.VUE_APP_FIREBASE_STORAGE_BUCKET,
-  messagingSenderId: process.env.VUE_APP_FIREBASE_MESSEGING_SENDER_ID,
-  appId: process.env.VUE_APP_FIREBASE_APP_ID,
-  measurementId: process.env.VUE_APP_FIREBASE_MESUREMENT_ID,
+  apiKey: 'AIzaSyBdTgsB9r6q9FfIpYSObCmpFne6rSvcJEo',
+  authDomain: 'everstake-dashboard-dev.firebaseapp.com',
+  databaseURL: 'https://everstake-dashboard-dev.firebaseio.com',
+  projectId: 'everstake-dashboard-dev',
+  storageBucket: 'everstake-dashboard-dev.appspot.com',
+  messagingSenderId: 697391379987,
+  appId: '1:697391379987:web:f69fc36c6477508128b1e6',
 };
