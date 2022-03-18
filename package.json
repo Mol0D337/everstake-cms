@@ -18,7 +18,7 @@
     "dayjs": "^1.8.32",
     "express": "^4.17.3",
     "firebase": "^7.24.0",
-    "server-static": "^2.0.5",
+    "serve-static": "^1.14.2",
     "vue": "2.6.14",
     "vue-axios": "^2.1.5",
     "vue-chartjs": "^3.5.0",
