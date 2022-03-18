@@ -1,0 +1,111 @@
+{
+  "common": {
+    "clickHere": "Click here",
+    "createCampaign": "Create new campaign",
+    "moreInfo": "More info",
+    "blockchain": "Blockchain",
+    "wallet": "Wallet",
+    "walletPlaceholder": "Select a wallet",
+    "platform": "Platform",
+    "platformPlaceholder": "Select a platform",
+    "clicks": "Clicks",
+    "staked": "Staked",
+    "rewards": "Rewards",
+    "copyLink": "Copy link",
+    "earned": "Earned",
+    "home": "Home",
+    "delegations": "Delegations",
+    "ctr": "CTR",
+    "termsOfUse": "Terms of use",
+    "day": "Day",
+    "month": "Month",
+    "quarter": "Quarter",
+    "year": "Year",
+    "blockchainOptional": "Blockchain (optional)",
+    "walletOptional": "Wallet (optional)"
+  },
+  "home": {
+    "getRicher": "Get richer about what matters to you.",
+    "getRicherP": "We'll help you find great things to earn. Create campaign, copy referral link, share with friends and start earn interest from their staking rewards.",
+    "signInWith": "Sign in with {social}"
+  },
+  "profile": {
+    "title": "Profile",
+    "addWallet": "Add your wallet addresses below. Every month we will send your earnings from all campaigns.",
+    "inputPlaceholder": "Enter your {coinCode} address",
+    "save": "Save",
+    "addAddress": "Add address",
+    "deleteAddress": "Delete address",
+    "deleteAddressMsg": "Are you sure you want to delete your address? The operation is irreversible.",
+    "delete": "Delete",
+    "cancel": "Cancel",
+    "editAddress": "Edit address",
+    "editAddressMsg": "Check the correctness of your address. Continue if you are sure.",
+    "continue": "Continue",
+    "withdraw": "Withdraw",
+    "confirmAddress": "Confirm address",
+    "confirmAddressContinue": "Are you sure you want to сonfirm address",
+    "withdrawContinue": "Are you sure you want to withdraw to",
+    "tooltip": {
+      "notConfirm": " To withdraw your rewards, you have to confirm your wallet address. If the address has not been confirmed, no withdrawal will be performed this month, and you can receive rewards next month.",
+      "confirm": "Your wallet address has been confirmed. Your balance will be automatically wired on confirmed wallet address as of month end"
+    }
+  },
+  "userDdwn": {
+    "logOut": "Log out"
+  },
+  "notFound": {
+    "pageMissing": "The page you are looking for is not found"
+  },
+  "validations": {
+    "required": "The field is required",
+    "maxLength": "The field must be at most {num} characters",
+    "allowedSpecialChars": "Only {specialChars} special characters are allowed",
+    "minValue": "The value must be greater than {val}",
+    "numericOrDecimal": "The value must be either an integer or decimal",
+    "alphaNum": "Only latin characters and numbers are allowed",
+    "noRule": "Invalid data",
+    "length": "The field must be {num} characters",
+    "validationsTezosAddress": "The field must be prefixe - \"tz\" or \"KT\"",
+    "validationsCosmosAddress": "The field must be prefixe - \"cosmos\"",
+    "validationsBandAddress": "The field must be prefixe - \"band\"",
+    "validationsOasisAddress": "The field must be prefixe - \"oasis\"",
+    "validationsCardanoAddress": "The field must be prefixe - \"addr\""
+  },
+  "notifications": {
+    "success": "Success",
+    "linkCopied": "Link copied!"
+  },
+  "errorNotifications": {
+    "error": "Error",
+    "ERR_SERVICE": "Service error. Please, try later or contact support.",
+    "ERR_NOT_FOUND": "Not found.",
+    "ERR_NOT_FOUND:link": "Link is not found.",
+    "ERR_NOT_FOUND:campaign": "Campaign is not found.",
+    "ERR_BAD_REQUEST": "Bad request.",
+    "ERR_BAD_PARAM": "Invalid param.",
+    "ERR_BAD_PARAM:overlimit": "Limit is too high.",
+    "ERR_BAD_PARAM:limit not present": "Limit is too low.",
+    "ERR_BAD_PARAM:name": "Invalid name. Try another one.",
+    "ERR_BAD_PARAM:wallet": "Invalid wallet. Try another one.",
+    "ERR_BAD_PARAM:platform": "Invalid platform. Try another one.",
+    "ERR_BAD_PARAM:blockchain": "Invalid blockchain. Try another one.",
+    "ERR_BAD_PARAM:campaign": "Invalid campaign.",
+    "ERR_BAD_PARAM:tx_id": "Invalid tx ID. Try another one.",
+    "ERR_BAD_PARAM:data": "Invalid data. Try another one.",
+    "ERR_BAD_PARAM:from": "No range start.",
+    "ERR_BAD_PARAM:to": "No range end.",
+    "ERR_NOT_ALLOWED": "Not allowed.",
+    "ERR_ALREADY_EXISTS": "Already exists.",
+    "ERR_ALREADY_EXISTS:campaign name": "Already exists.",
+    "ERR_BAD_AUTH": "Login failed."
+  },
+  "successNotifications": {
+    "success": "Successfully!"
+  },
+  "noDataTexts": {
+    "noLPs": "No landing pages",
+    "noCampaigns": "No campaigns",
+    "noData": "No data"
+  }
+}
