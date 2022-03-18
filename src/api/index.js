@@ -1,14 +1,8 @@
 import Vue from 'vue';
 import axios from 'axios';
-import queryString from 'querystring';
 import { handleError } from '@/utils/errorsHandler';
 import { SET_USER_ID_TOKEN } from '@/store/mutation-types';
 import store from '../store';
-
-const formatParams = (params) =>
-  params && Object.keys(params).length
-    ? `?${queryString.stringify(params)}`
-    : '';
 
 const APIService = axios.create({
   baseURL: process.env.VUE_APP_API_URL,
